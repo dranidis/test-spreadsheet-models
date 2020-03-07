@@ -1,0 +1,13 @@
+{
+  "timeZone": "Europe/Bucharest",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "Sheet",
+      "libraryId": "1LpAIaHm_v6AS_Z0KtmLbKF-A-LJGKzizEJr0KHQb4RioC4FC9MB7ARW5",
+      "version": "1",
+      "developmentMode": true
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
