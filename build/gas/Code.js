@@ -1,13 +1,16 @@
 "use strict";
+/**
+ * For each spreadsheet that you wish to manipulate
+ * you need to create a Sheet object defining the
+ * sheet name, columns (as they appear), fields for
+ * accessing the columns.
+ *
+ * Optionally you
+ */
 var PROJECTS = {
-    sheet: 'Projects',
+    name: 'Projects',
     columns: [
-        /**
-         * TypeError: SheetLib.fillWithUnderScore is not a function
-        at [unknown function]
-         */
-        // SheetLib.fillWithUnderScore('NAME', 20),
-        'NAME',
+        SheetLib.fillWithUnderScore('NAME', 20),
         'KEY',
         "No of Students",
         "No of Verified Students"
