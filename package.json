@@ -1,14 +1,18 @@
 {
   "name": "test-spreadsheet-models",
   "version": "1.0.0",
-  "description": "",
-  "main": "Code.js",
+  "description": "Test project for the spreadsheet-models",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clasp": "cp appsscript.json build/gas && clasp push",
+    "build": "tsc --build",
+    "clean": "rm -rf build",
+    "deploy": "npm run clean && npm run build && npm run clasp"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dimitris Dranidis",
+  "license": "MIT",
   "devDependencies": {
-    "@types/google-apps-script": "^1.0.10"
+    "@types/google-apps-script": "^1.0.10",
+    "spreadsheet-models": "dranidis/spreadsheet-models",
+    "typescript": "^3.8.3"
   }
 }

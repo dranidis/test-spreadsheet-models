@@ -1,5 +1,3 @@
-.clasp.json
-.log
 node_modules/
+*.tsbuildinfo
 
-*.txt
